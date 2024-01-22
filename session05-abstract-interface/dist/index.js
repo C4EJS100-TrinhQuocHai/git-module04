@@ -18,7 +18,7 @@ class Chirld extends Person {
     pay() { }
 }
 let chirld = new Chirld(11, "hoa", "hn");
-console.log("1111111", chirld);
+console.log("111111122222", chirld);
 /*
     viết 1 phương thức abstract bên class cha
     sau đó triển khai 2 phương thức ở trên 2 class con circle,và square

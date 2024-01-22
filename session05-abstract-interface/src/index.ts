@@ -24,7 +24,7 @@ class Chirld extends Person {
     override pay(): void {}
 }
 let chirld = new Chirld(11, "hoa", "hn");
-console.log("1111111", chirld);
+console.log("111111122222", chirld);
 /* 
     viết 1 phương thức abstract bên class cha
     sau đó triển khai 2 phương thức ở trên 2 class con circle,và square
@@ -114,14 +114,18 @@ class Hieu implements Loc,Hao{
         this.age=age;
     }
     showName(): void {
-        console.log("111111111",this.name);
+        console.log("111111111333",this.name);
         
     }
     showName2(): void {
-        console.log("111111111",this.name);
+        console.log("111111111222",this.name);
         
     }
    
 }
 let std= new Hieu(1,"hieu",18);
 console.log(std.showName());
+let ourTuple: [number, boolean, string,boolean];
+ourTuple = [5, false, 'Coding God was here',true];
+
+
